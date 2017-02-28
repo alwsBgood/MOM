@@ -1,0 +1,205 @@
+@import "bourbon";
+@import "vars.scss";
+
+body {
+	position: relative;
+	font: 16px/24px $main_font;
+	color: $main_text_color;
+	background-color: #eff0f7;
+}
+
+body.unscroll{
+	overflow: hidden;
+}
+
+.mobile{display: none;}
+
+.text--title{
+    font-family: $bold_font;
+    color: #101010;
+}
+
+.text--blue{
+    color: $main_color;
+}
+
+.block_title{
+    line-height: 38px;
+    font-size: 34px;
+}
+
+h2{
+    font-size: 64px;
+    line-height: 68px;
+}
+
+.md-modal.md-show{
+    opacity: 1;
+  }
+.md-modal{
+    opacity: 0;
+  }
+
+/* SCROLL BAR STYLES*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+ /* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 20px rgba(0,0,0,  0.3);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    background: $main_color;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: $main_color;
+}
+
+/* BUTTON scrollUP SYLES*/
+
+#scrollup {
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    width: 30px;
+    transform: rotate(180deg);
+    display: none;
+    opacity: 1;
+    cursor: pointer;
+    z-index: 10;
+    font-size: 40px;
+    text-shadow: -2px 2px 5px rgba(0,0,0, 0.3);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    svg{
+      fill: #848484;
+      transition: all 0.5s;
+    }
+}
+
+#scrollup:hover{
+  svg{fill: $main_color;}
+}
+
+.hidden{
+    height: 0;
+    width: 0;
+}
+.bar-long {
+	height: 5px;
+	width: 0;
+	z-index: 1000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: $main_color;
+}
+
+.text--title{
+    color: $second_color;
+    font-family: $bold_font;
+}
+
+.btn{
+    width: 181px;
+    height: 50px;
+
+    color: $main_color;
+	font: 16px $bold_font;
+    letter-spacing: .08em;
+}
+
+.btn:hover{
+	background-color: #ec1244;
+    color:#fff;
+}
+
+.btn:active{
+	background-color: #d4d5e0;
+    background-image: none;
+}
+
+
+.btn_red{
+    background-color: none;
+    background-image: url(../img/btn.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    color: #ec1244;
+}
+
+
+section{
+    position: relative;
+    min-height: 100vh;
+    text-align: center;
+    background-image: url(../img/bg.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+
+    padding: 200px 0 71px;
+    h1{
+        font-size: 72px;
+        color: $main_color !important;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+    .text{
+        margin-top: 30px;
+        font-size: 18px;
+    }
+    footer{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .btn{
+        margin-top: 80px;
+        margin-bottom: 60px;
+        background-color: transparent;
+        width: 282px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+footer{
+  padding: 15px 0 15px;
+  background-color: #202020;
+  .politics{
+    margin-top: 17px;
+    a{
+      color: #65666a;
+      font-size: 14px;
+    }
+    a:hover{color: $main_color;}
+    a+a{margin-left: 10px;}
+  }
+  .logo_rezart{
+    margin-top: 5px;
+    margin-left: 25px;
+    width: 80px;
+    // margin-right: 20px;
+    float: right;
+  }
+}
+
+@media (max-width: 767px) {
+    section{
+        padding-bottom: 179px;
+    }
+}
+
+@media (max-width: 480px) {
+    section{
+        padding-top: 100px;
+        h1{
+               font-size: 60px;
+           }
+        }
+}

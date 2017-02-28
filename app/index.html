@@ -1,8 +1,3 @@
-<!-- <?php
-    require 'db/data.php';
-    require 'db/visits.php';
-?> -->
-
 <!DOCTYPE html>
 <html class="no-js" lang="ru">
 
@@ -10,21 +5,21 @@
 
     <meta charset="utf-8">
 
-    <title></title>
+    <title> Отправляйся туда, где всегда хотел быть | Move On Miles</title>
 
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content="Ты — IT-специалист, и хочешь переехать в другую страну? Move On Miles — проект, который даст тебе возможность работать в лучших компаниях Европы и США. Проходи отбор — и получи все, о чем мечтал.">
+    <meta name="keywords" content="move on miles, relocate, it, job for it, мув он майлз, айти, работа для айтишников, иммиграция, переезд за границу, как переехать за границу, работа в айти за границей">
 
-    <meta property="og:description" content="" />
+    <meta property="og:description" content="Ты — IT-специалист, и хочешь переехать в другую страну? Move On Miles — проект, который даст тебе возможность работать в лучших компаниях Европы и США. Проходи отбор — и получи все, о чем мечтал." />
 
-    <meta property="og:image" content="" />
+    <meta property="og:image" content="http://moveonmiles.com/img/og.png" />
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="300" />
-    <meta property="og:image:height" content="400" />
+    <meta property="og:image:height" content="300" />
 
-    <meta property="og:site_name" content=""/>
-    <meta property="og:title" content="" />
-    <meta property="og:url" content=""/>
+    <meta property="og:site_name" content="Move On Miles"/>
+    <meta property="og:title" content="Отправляйся туда, где всегда хотел быть" />
+    <meta property="og:url" content="http://moveonmiles.com/"/>
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
@@ -37,7 +32,7 @@
     <meta name="theme-color" content="#ffffff">
 
 
-
+    <style>#page-preloader{position:fixed;left:0;top:0;right:0;bottom:0;background:#fff;z-index:30}</style>
 
     <!-- RESET -->
     <style>html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}*{box-sizing:border-box}html,body{height:100%;margin:0;width:100%}.container{max-width:1200px;margin:0 auto}a,button,img,input{-webkit-transition:all .5s;transition:all .5s}button,button:active,button:focus,input,input:active,input:focus,textarea,textarea:active,textarea:focus{outline:none}button,button:hover,a,a:hover{text-decoration:none;cursor:pointer}.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}.clearfix:before,.clearfix:after,.container:before,.container:after{content:'.';display:block;overflow:hidden;visibility:hidden;font-size:0;line-height:0;width:0;height:0}.clearfix:after,.container:after{clear:both}.left{float:left}.right{float:right}.tl{text-align:left}.tr{text-align:right}.tc{text-align:center}.flex{display:-webkit-box;display:flex;-webkit-box-align:center;align-items:center;-webkit-box-pack:center;justify-content:center}a,button,input,textarea{text-decoration:none;outline:0;border:0;-webkit-transition:color .4s ease,background-color .4s ease,background-image .4s ease,border-color .4s ease;transition:color .4s ease,background-color .4s ease,background-image .4s ease,border-color .4s ease}a:focus,button:focus,input:focus,textarea:focus{outline:0}input,textarea{-webkit-box-sizing:border-box;box-sizing:border-box}textarea{resize:none}button:hover,a:hover{cursor:pointer}</style>
@@ -46,16 +41,16 @@
     <style>:before,:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.container{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}@media (min-width:768px){.container{width:750px}}@media (min-width:992px){.container{width:970px}}@media (min-width:1200px){.container{width:1170px}}.row{margin-left:-15px;margin-right:-15px}.col-1,.col-sm-1,.col-md-1,.col-lg-1,.col-2,.col-sm-2,.col-md-2,.col-lg-2,.col-3,.col-sm-3,.col-md-3,.col-lg-3,.col-4,.col-sm-4,.col-md-4,.col-lg-4,.col-5,.col-sm-5,.col-md-5,.col-lg-5,.col-6,.col-sm-6,.col-md-6,.col-lg-6,.col-7,.col-sm-7,.col-md-7,.col-lg-7,.col-8,.col-sm-8,.col-md-8,.col-lg-8,.col-9,.col-sm-9,.col-md-9,.col-lg-9,.col-10,.col-sm-10,.col-md-10,.col-lg-10,.col-11,.col-sm-11,.col-md-11,.col-lg-11,.col-12,.col-sm-12,.col-md-12,.col-lg-12{position:relative;min-height:1px;padding-left:15px;padding-right:15px}.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{float:left}.col-12{width:100%}.col-11{width:91.66666667%}.col-10{width:83.33333333%}.col-9{width:75%}.col-8{width:66.66666667%}.col-7{width:58.33333333%}.col-6{width:50%}.col-5{width:41.66666667%}.col-4{width:33.33333333%}.col-3{width:25%}.col-2{width:16.66666667%}.col-1{width:8.33333333%}.col-pull-12{right:100%}.col-pull-11{right:91.66666667%}.col-pull-10{right:83.33333333%}.col-pull-9{right:75%}.col-pull-8{right:66.66666667%}.col-pull-7{right:58.33333333%}.col-pull-6{right:50%}.col-pull-5{right:41.66666667%}.col-pull-4{right:33.33333333%}.col-pull-3{right:25%}.col-pull-2{right:16.66666667%}.col-pull-1{right:8.33333333%}.col-pull-0{right:auto}.col-push-12{left:100%}.col-push-11{left:91.66666667%}.col-push-10{left:83.33333333%}.col-push-9{left:75%}.col-push-8{left:66.66666667%}.col-push-7{left:58.33333333%}.col-push-6{left:50%}.col-push-5{left:41.66666667%}.col-push-4{left:33.33333333%}.col-push-3{left:25%}.col-push-2{left:16.66666667%}.col-push-1{left:8.33333333%}.col-push-0{left:auto}.col-offset-12{margin-left:100%}.col-offset-11{margin-left:91.66666667%}.col-offset-10{margin-left:83.33333333%}.col-offset-9{margin-left:75%}.col-offset-8{margin-left:66.66666667%}.col-offset-7{margin-left:58.33333333%}.col-offset-6{margin-left:50%}.col-offset-5{margin-left:41.66666667%}.col-offset-4{margin-left:33.33333333%}.col-offset-3{margin-left:25%}.col-offset-2{margin-left:16.66666667%}.col-offset-1{margin-left:8.33333333%}.col-offset-0{margin-left:0}.clearfix:before,.clearfix:after,.container:before,.container:after,.container-fluid:before,.container-fluid:after,.row:before,.row:after{content:" ";display:table}.clearfix:after,.container:after,.container-fluid:after,.row:after{clear:both}.center-block{display:block;margin-left:auto;margin-right:auto}</style>
 
     <!-- FONTS+HEADER -->
-    <style>@font-face{font-family:"Roboto";font-style:normal;font-weight:400;src:url(fonts/Roboto.woff2) format("woff2"),url(fonts/Roboto.woff) format("woff")}</style>
+    <style>@font-face{font-family:"Gilroy-Light";font-style:normal;font-weight:400;src:url(fonts/Gilroy-Light.woff2) format("woff2"),url(fonts/Gilroy-Light.woff) format("woff")}@font-face{font-family:"Gilroy-ExtraBold";font-style:normal;font-weight:400;src:url(fonts/Gilroy-ExtraBold.woff2) format("woff2"),url(fonts/Gilroy-ExtraBold.woff) format("woff")}body{position:relative;font:16px/24px Gilroy-Light,sans-serif;color:#77787a;background-color:#eff0f7}body.unscroll{overflow:hidden}.mobile{display:none}.text--title{font-family:"Gilroy-ExtraBold",sans-serif;color:#101010}.text--blue{color:#015ffd}.block_title{line-height:38px;font-size:34px}h2{font-size:64px;line-height:68px}.md-modal.md-show{opacity:1}.md-modal{opacity:0}::-webkit-scrollbar{width:10px}::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 20px rgba(0,0,0,0.3)}::-webkit-scrollbar-thumb{-webkit-border-radius:0;border-radius:0;background:#015ffd;-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.5)}::-webkit-scrollbar-thumb:window-inactive{background:#015ffd}#scrollup{position:fixed;right:20px;bottom:30px;width:30px;-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);display:none;opacity:1;cursor:pointer;z-index:10;font-size:40px;text-shadow:-2px 2px 5px rgba(0,0,0,0.3);-webkit-transition:all .5s;transition:all .5s}#scrollup svg{fill:#848484;-webkit-transition:all .5s;transition:all .5s}#scrollup:hover svg{fill:#015ffd}.hidden{height:0;width:0}.bar-long{height:5px;width:0;z-index:1000;position:fixed;top:0;left:0;background:#015ffd}.text--title{color:#101010;font-family:"Gilroy-ExtraBold",sans-serif}.btn{width:181px;height:50px;background-color:#fff;color:#015ffd;font:16px Gilroy-ExtraBold,sans-serif;letter-spacing:.08em}.btn:hover{background-color:#ec1244;color:#fff}.btn:active{background-color:#d4d5e0;background-image:none}.btn_red{background-color:none;background-image:url(../img/btn-red.png);background-position:top center;background-repeat:no-repeat;color:#ec1244}#sec_01{position:relative;overflow:hidden;padding:40px 0 210px;background-image:url(../img/sec_01-bg_layer--2.png);background-position:bottom center;background-repeat:no-repeat}#sec_01 .container{position:relative;z-index:20}#sec_01:before{position:absolute;content:'';width:100%;height:100%;left:0;top:0;background:url(../img/sec_01-bg_layer--1.png) bottom center no-repeat;z-index:20}#sec_01 h1{position:relative;display:inline-block;color:#101010;font-size:110px;font-weight:700;line-height:130px;margin-bottom:70px}#sec_01 h1:before{position:absolute;content:'';width:43px;height:63px;right:160px;top:170px;background:url(../img/slash.png) center no-repeat}#sec_01 .top{margin-bottom:130px}#sec_01 .top .phones_box{float:right}#sec_01 .top .logo{margin-top:-10px}#sec_01 .top .call_btn{float:right;width:181px;height:40px;border:2px solid #150f2d;margin-left:40px;color:#101010;font-family:"Gilroy-ExtraBold",sans-serif}#sec_01 .top .call_btn:hover{background:#015ffd;color:#fff;border:2px solid #015ffd}#sec_01 .top .call_btn:active{background-color:#0350d2}#sec_01 .top .phone_number{line-height:40px}#sec_01 .btn{margin-left:10px}.glitch{position:absolute;bottom:-75px;width:100%;z-index:10;color:#0059ff;font-size:572px;line-height:678px;font-weight:700;text-transform:uppercase;-webkit-animation:glitch-main 8s infinite linear alternate-reverse;animation:glitch-main 8s infinite linear alternate-reverse}.glitch::before,.glitch::after{content:attr(data-text);position:absolute;top:0;left:0;width:100%;height:100%}.glitch::before{content:"move";z-index:2;position:absolute;left:0;top:0;color:#0059ff;font-size:572px;line-height:678px;font-weight:700;text-transform:uppercase;left:-1px;text-shadow:-1px 0 red;background-image:url(../img/sec_01-bg_layer--2.png);background-repeat:no-repeat;background-position:bottom 76px center;-webkit-animation:glitch-anim-1 3s infinite linear alternate-reverse;animation:glitch-anim-1 3s infinite linear alternate-reverse}.glitch::after{content:"move";z-index:2;position:absolute;left:0;top:0;color:#0059ff;font-size:562px;line-height:678px;font-weight:700;text-transform:uppercase;left:1px;text-shadow:-1px 0 green;background-image:url(../img/sec_01-bg_layer--2.png);background-repeat:no-repeat;background-position:bottom 76px center;-webkit-animation:glitch-anim-2 3s infinite linear alternate-reverse;animation:glitch-anim-2 3s infinite linear alternate-reverse}.glitch::before{clip:rect(310px,1920px,680px,0)}.glitch::after{clip:rect(0px,1920px,1202px,0)}@-webkit-keyframes glitch-anim-1{0%{clip:rect(353px,9999px,78px,0)}12.5%{clip:rect(613px,9999px,53px,0)}25%{clip:rect(680px,9999px,360px,0)}37.5%{clip:rect(91px,9999px,316px,0)}50%{clip:rect(423px,9999px,99px,0)}62.5%{clip:rect(174px,9999px,458px,0)}75%{clip:rect(67px,9999px,168px,0)}87.5%{clip:rect(678px,9999px,413px,0)}100%{clip:rect(385px,9999px,132px,0)}}@keyframes glitch-anim-1{0%{clip:rect(353px,9999px,78px,0)}12.5%{clip:rect(613px,9999px,53px,0)}25%{clip:rect(680px,9999px,360px,0)}37.5%{clip:rect(91px,9999px,316px,0)}50%{clip:rect(423px,9999px,99px,0)}62.5%{clip:rect(174px,9999px,458px,0)}75%{clip:rect(67px,9999px,168px,0)}87.5%{clip:rect(678px,9999px,413px,0)}100%{clip:rect(385px,9999px,132px,0)}}@-webkit-keyframes glitch-anim-2{0%{clip:rect(286px,9999px,451px,0)}12.5%{clip:rect(291px,9999px,36px,0)}25%{clip:rect(604px,9999px,75px,0)}37.5%{clip:rect(105px,9999px,30px,0)}50%{clip:rect(130px,9999px,330px,0)}62.5%{clip:rect(465px,9999px,259px,0)}75%{clip:rect(67px,9999px,290px,0)}87.5%{clip:rect(495px,9999px,235px,0)}100%{clip:rect(662px,9999px,499px,0)}}@keyframes glitch-anim-2{0%{clip:rect(286px,9999px,451px,0)}12.5%{clip:rect(291px,9999px,36px,0)}25%{clip:rect(604px,9999px,75px,0)}37.5%{clip:rect(105px,9999px,30px,0)}50%{clip:rect(130px,9999px,330px,0)}62.5%{clip:rect(465px,9999px,259px,0)}75%{clip:rect(67px,9999px,290px,0)}87.5%{clip:rect(495px,9999px,235px,0)}100%{clip:rect(662px,9999px,499px,0)}}@-webkit-keyframes glitch-main{0%{text-shadow:-6px 4px 0 rgba(255,66,8,0.5),0 -3px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}1%{text-shadow:-6px 4px 0 rgba(255,66,8,0.5),0 -3px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}2%{text-shadow:-6px 4px 0 rgba(255,66,8,0.5),0 -3px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}3%{text-shadow:-6px 4px 0 rgba(255,66,8,0.5),0 -3px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}4%{text-shadow:-6px 4px 0 rgba(255,66,8,0.5),0 -3px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}5%{text-shadow:-6px 4px 0 rgba(255,66,8,0.5),0 -3px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}6%{text-shadow:-6px 4px 0 rgba(255,66,8,0.5),0 -3px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}7%{text-shadow:-3px 2px 0 rgba(255,66,8,0.5),0 -3px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}8%{text-shadow:-3px 2px 0 rgba(255,66,8,0.5),0 -3px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}9%{text-shadow:-3px 2px 0 rgba(255,66,8,0.5),0 -3px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}10%{text-shadow:-3px 2px 0 rgba(255,66,8,0.5),0 -3px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}11%{text-shadow:-5px -2px 0 rgba(255,66,8,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}12%{text-shadow:-5px -2px 0 rgba(255,66,8,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}13%{text-shadow:-5px -2px 0 rgba(255,66,8,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}14%{text-shadow:-5px -2px 0 rgba(255,66,8,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}15%{text-shadow:-5px -2px 0 rgba(255,66,8,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}16%{text-shadow:-5px 4px 0 rgba(255,66,8,0.5),0 -6px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}17%{text-shadow:-6px 4px 0 rgba(255,66,8,0.5),0 -6px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}18%{text-shadow:-6px 4px 0 rgba(255,66,8,0.5),0 -6px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}19%{text-shadow:-6px 4px 0 rgba(255,66,8,0.5),0 -6px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}20%{text-shadow:-6px 4px 0 rgba(255,66,8,0.5),0 -6px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}21%{text-shadow:3px -3px 0 rgba(255,66,8,0.5),0 -6px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}22%{text-shadow:3px -3px 0 rgba(255,66,8,0.5),0 -6px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}23%{text-shadow:3px -3px 0 rgba(255,66,8,0.5),0 -6px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}24%{text-shadow:3px -3px 0 rgba(255,66,8,0.5),0 -6px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}25%{text-shadow:3px -3px 0 rgba(255,66,8,0.5),0 -6px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}26%{text-shadow:3px -3px 0 rgba(255,66,8,0.5),0 -6px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0.5);filter:blur(0.5)}27%{text-shadow:3px -3px 0 rgba(255,66,8,0.5),0 -6px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0.5);filter:blur(0.5)}28%{text-shadow:3px -3px 0 rgba(255,66,8,0.5),0 -6px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}29%{text-shadow:3px -3px 0 rgba(255,66,8,0.5),0 -6px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}30%{text-shadow:3px -3px 0 rgba(255,66,8,0.5),0 -6px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}31%{text-shadow:-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}32%{text-shadow:-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}33%{text-shadow:-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}34%{text-shadow:-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}35%{text-shadow:-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}36%{text-shadow:-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}37%{text-shadow:-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}38%{text-shadow:-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}39%{text-shadow:-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}40%{text-shadow:-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}41%{text-shadow:8px 0 0 rgba(23,236,255,0.5),-7px 0 0 rgba(255,66,8,0.5);-webkit-filter:blur(0);filter:blur(0)}42%{text-shadow:0 0 0 rgba(23,236,255,0.5),0 0 0 rgba(255,66,8,0.5);-webkit-filter:blur(0);filter:blur(0)}43%{text-shadow:1px 0 0 rgba(255,66,8,0.5);-webkit-filter:blur(0);filter:blur(0)}44%{text-shadow:1px 0 0 rgba(255,66,8,0.5);-webkit-filter:blur(0);filter:blur(0)}45%{text-shadow:1px 0 0 rgba(255,66,8,0.5);-webkit-filter:blur(0);filter:blur(0)}46%{text-shadow:1px 0 0 rgba(255,66,8,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}47%{text-shadow:-3px 0 0 rgba(255,66,8,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}48%{text-shadow:-10px 4px 0 rgba(255,66,8,0.5),0 -6px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}49%{text-shadow:-5px 4px 0 rgba(255,66,8,0.5),0 -4px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}50%{text-shadow:-5px 4px 0 rgba(255,66,8,0.5),0 -4px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}51%{text-shadow:3px 0 0 rgba(255,66,8,0.5),-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}52%{text-shadow:3px 0 0 rgba(255,66,8,0.5),-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}53%{text-shadow:3px 0 0 rgba(255,66,8,0.5),-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}54%{text-shadow:3px 0 0 rgba(255,66,8,0.5),-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}55%{text-shadow:3px 0 0 rgba(255,66,8,0.5),-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}56%{text-shadow:-3px 0 0 rgba(255,66,8,0.5),3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}57%{text-shadow:-3px 0 0 rgba(255,66,8,0.5),3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}58%{text-shadow:-3px 0 0 rgba(255,66,8,0.5),3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}59%{text-shadow:-3px 0 0 rgba(255,66,8,0.5),3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}60%{text-shadow:-3px 0 0 rgba(255,66,8,0.5),3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}61%{text-shadow:4px 0 0 rgba(255,66,8,0.5),-4px 0 0 rgba(255,66,8,0.5);-webkit-filter:blur(0);filter:blur(0)}62%{text-shadow:0 0 0 rgba(255,66,8,0.5),0 0 0 rgba(255,66,8,0.5);-webkit-filter:blur(0);filter:blur(0)}63%{text-shadow:1px 0 0 rgba(255,66,8,0.5),-1px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}64%{text-shadow:1px 0 0 rgba(255,66,8,0.5),-1px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}65%{text-shadow:1px 0 0 rgba(255,66,8,0.5),-1px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}66%{text-shadow:1px 0 0 rgba(255,66,8,0.5),-1px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}67%{text-shadow:-3px 0 0 rgba(255,66,8,0.5),3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}68%{text-shadow:-3px 0 0 rgba(255,66,8,0.5),3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}69%{text-shadow:-3px 0 0 rgba(255,66,8,0.5),3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}70%{text-shadow:-3px 0 0 rgba(255,66,8,0.5),3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}71%{text-shadow:5px 0 0 rgba(255,66,8,0.5),-5px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}72%{text-shadow:0 0 0 rgba(255,66,8,0.5),0 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}73%{text-shadow:3px 0 0 rgba(255,66,8,0.5),-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}74%{text-shadow:3px 0 0 rgba(255,66,8,0.5),-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}75%{text-shadow:3px 0 0 rgba(255,66,8,0.5),-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}76%{text-shadow:3px 0 0 rgba(255,66,8,0.5),-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}77%{text-shadow:-3px 0 0 rgba(255,66,8,0.5),3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}78%{text-shadow:-3px 0 0 rgba(255,66,8,0.5),3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}79%{text-shadow:-3px 0 0 rgba(255,66,8,0.5),3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}80%{text-shadow:-3px 0 0 rgba(255,66,8,0.5),3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}81%{text-shadow:1px 0 0 rgba(255,66,8,0.5);-webkit-filter:blur(0);filter:blur(0)}82%{text-shadow:1px 0 0 rgba(255,66,8,0.5);-webkit-filter:blur(0);filter:blur(0)}83%{text-shadow:1px 0 0 rgba(255,66,8,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}84%{text-shadow:1px 0 0 rgba(255,66,8,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}85%{text-shadow:1px 0 0 rgba(255,66,8,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}86%{text-shadow:-3px 0 0 rgba(255,66,8,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}87%{text-shadow:-3px 0 0 rgba(255,66,8,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}88%{text-shadow:-6px 4px 0 rgba(255,66,8,0.5),0 -4px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}89%{text-shadow:-4px 4px 0 rgba(255,66,8,0.5),0 -2px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}90%{text-shadow:-6px 4px 0 rgba(255,66,8,0.5),0 -4px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}91%{text-shadow:6px 0 0 rgba(255,66,8,0.5),-6px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}92%{text-shadow:0 0 0 rgba(255,66,8,0.5),0 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0);text-shadow:3px -3px 0 rgba(255,66,8,0.5),0 -4px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}93%{text-shadow:3px -3px 0 rgba(255,66,8,0.5),0 -4px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}94%{text-shadow:3px -3px 0 rgba(255,66,8,0.5),0 -4px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}95%{text-shadow:3px -3px 0 rgba(255,66,8,0.5),0 -4px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}96%{text-shadow:-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}97%{text-shadow:-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}98%{text-shadow:-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}99%{text-shadow:-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}100%{text-shadow:-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}}@keyframes glitch-main{0%{text-shadow:-6px 4px 0 rgba(255,66,8,0.5),0 -3px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}1%{text-shadow:-6px 4px 0 rgba(255,66,8,0.5),0 -3px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}2%{text-shadow:-6px 4px 0 rgba(255,66,8,0.5),0 -3px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}3%{text-shadow:-6px 4px 0 rgba(255,66,8,0.5),0 -3px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}4%{text-shadow:-6px 4px 0 rgba(255,66,8,0.5),0 -3px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}5%{text-shadow:-6px 4px 0 rgba(255,66,8,0.5),0 -3px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}6%{text-shadow:-6px 4px 0 rgba(255,66,8,0.5),0 -3px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}7%{text-shadow:-3px 2px 0 rgba(255,66,8,0.5),0 -3px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}8%{text-shadow:-3px 2px 0 rgba(255,66,8,0.5),0 -3px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}9%{text-shadow:-3px 2px 0 rgba(255,66,8,0.5),0 -3px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}10%{text-shadow:-3px 2px 0 rgba(255,66,8,0.5),0 -3px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}11%{text-shadow:-5px -2px 0 rgba(255,66,8,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}12%{text-shadow:-5px -2px 0 rgba(255,66,8,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}13%{text-shadow:-5px -2px 0 rgba(255,66,8,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}14%{text-shadow:-5px -2px 0 rgba(255,66,8,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}15%{text-shadow:-5px -2px 0 rgba(255,66,8,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}16%{text-shadow:-5px 4px 0 rgba(255,66,8,0.5),0 -6px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}17%{text-shadow:-6px 4px 0 rgba(255,66,8,0.5),0 -6px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}18%{text-shadow:-6px 4px 0 rgba(255,66,8,0.5),0 -6px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}19%{text-shadow:-6px 4px 0 rgba(255,66,8,0.5),0 -6px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}20%{text-shadow:-6px 4px 0 rgba(255,66,8,0.5),0 -6px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}21%{text-shadow:3px -3px 0 rgba(255,66,8,0.5),0 -6px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}22%{text-shadow:3px -3px 0 rgba(255,66,8,0.5),0 -6px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}23%{text-shadow:3px -3px 0 rgba(255,66,8,0.5),0 -6px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}24%{text-shadow:3px -3px 0 rgba(255,66,8,0.5),0 -6px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}25%{text-shadow:3px -3px 0 rgba(255,66,8,0.5),0 -6px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}26%{text-shadow:3px -3px 0 rgba(255,66,8,0.5),0 -6px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0.5);filter:blur(0.5)}27%{text-shadow:3px -3px 0 rgba(255,66,8,0.5),0 -6px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0.5);filter:blur(0.5)}28%{text-shadow:3px -3px 0 rgba(255,66,8,0.5),0 -6px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}29%{text-shadow:3px -3px 0 rgba(255,66,8,0.5),0 -6px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}30%{text-shadow:3px -3px 0 rgba(255,66,8,0.5),0 -6px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}31%{text-shadow:-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}32%{text-shadow:-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}33%{text-shadow:-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}34%{text-shadow:-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}35%{text-shadow:-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}36%{text-shadow:-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}37%{text-shadow:-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}38%{text-shadow:-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}39%{text-shadow:-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}40%{text-shadow:-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}41%{text-shadow:8px 0 0 rgba(23,236,255,0.5),-7px 0 0 rgba(255,66,8,0.5);-webkit-filter:blur(0);filter:blur(0)}42%{text-shadow:0 0 0 rgba(23,236,255,0.5),0 0 0 rgba(255,66,8,0.5);-webkit-filter:blur(0);filter:blur(0)}43%{text-shadow:1px 0 0 rgba(255,66,8,0.5);-webkit-filter:blur(0);filter:blur(0)}44%{text-shadow:1px 0 0 rgba(255,66,8,0.5);-webkit-filter:blur(0);filter:blur(0)}45%{text-shadow:1px 0 0 rgba(255,66,8,0.5);-webkit-filter:blur(0);filter:blur(0)}46%{text-shadow:1px 0 0 rgba(255,66,8,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}47%{text-shadow:-3px 0 0 rgba(255,66,8,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}48%{text-shadow:-10px 4px 0 rgba(255,66,8,0.5),0 -6px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}49%{text-shadow:-5px 4px 0 rgba(255,66,8,0.5),0 -4px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}50%{text-shadow:-5px 4px 0 rgba(255,66,8,0.5),0 -4px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}51%{text-shadow:3px 0 0 rgba(255,66,8,0.5),-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}52%{text-shadow:3px 0 0 rgba(255,66,8,0.5),-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}53%{text-shadow:3px 0 0 rgba(255,66,8,0.5),-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}54%{text-shadow:3px 0 0 rgba(255,66,8,0.5),-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}55%{text-shadow:3px 0 0 rgba(255,66,8,0.5),-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}56%{text-shadow:-3px 0 0 rgba(255,66,8,0.5),3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}57%{text-shadow:-3px 0 0 rgba(255,66,8,0.5),3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}58%{text-shadow:-3px 0 0 rgba(255,66,8,0.5),3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}59%{text-shadow:-3px 0 0 rgba(255,66,8,0.5),3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}60%{text-shadow:-3px 0 0 rgba(255,66,8,0.5),3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}61%{text-shadow:4px 0 0 rgba(255,66,8,0.5),-4px 0 0 rgba(255,66,8,0.5);-webkit-filter:blur(0);filter:blur(0)}62%{text-shadow:0 0 0 rgba(255,66,8,0.5),0 0 0 rgba(255,66,8,0.5);-webkit-filter:blur(0);filter:blur(0)}63%{text-shadow:1px 0 0 rgba(255,66,8,0.5),-1px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}64%{text-shadow:1px 0 0 rgba(255,66,8,0.5),-1px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}65%{text-shadow:1px 0 0 rgba(255,66,8,0.5),-1px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}66%{text-shadow:1px 0 0 rgba(255,66,8,0.5),-1px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}67%{text-shadow:-3px 0 0 rgba(255,66,8,0.5),3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}68%{text-shadow:-3px 0 0 rgba(255,66,8,0.5),3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}69%{text-shadow:-3px 0 0 rgba(255,66,8,0.5),3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}70%{text-shadow:-3px 0 0 rgba(255,66,8,0.5),3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}71%{text-shadow:5px 0 0 rgba(255,66,8,0.5),-5px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}72%{text-shadow:0 0 0 rgba(255,66,8,0.5),0 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}73%{text-shadow:3px 0 0 rgba(255,66,8,0.5),-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}74%{text-shadow:3px 0 0 rgba(255,66,8,0.5),-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}75%{text-shadow:3px 0 0 rgba(255,66,8,0.5),-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}76%{text-shadow:3px 0 0 rgba(255,66,8,0.5),-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}77%{text-shadow:-3px 0 0 rgba(255,66,8,0.5),3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}78%{text-shadow:-3px 0 0 rgba(255,66,8,0.5),3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}79%{text-shadow:-3px 0 0 rgba(255,66,8,0.5),3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}80%{text-shadow:-3px 0 0 rgba(255,66,8,0.5),3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}81%{text-shadow:1px 0 0 rgba(255,66,8,0.5);-webkit-filter:blur(0);filter:blur(0)}82%{text-shadow:1px 0 0 rgba(255,66,8,0.5);-webkit-filter:blur(0);filter:blur(0)}83%{text-shadow:1px 0 0 rgba(255,66,8,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}84%{text-shadow:1px 0 0 rgba(255,66,8,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}85%{text-shadow:1px 0 0 rgba(255,66,8,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}86%{text-shadow:-3px 0 0 rgba(255,66,8,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}87%{text-shadow:-3px 0 0 rgba(255,66,8,0.5);-webkit-filter:blur(0.5px);filter:blur(0.5px)}88%{text-shadow:-6px 4px 0 rgba(255,66,8,0.5),0 -4px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}89%{text-shadow:-4px 4px 0 rgba(255,66,8,0.5),0 -2px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}90%{text-shadow:-6px 4px 0 rgba(255,66,8,0.5),0 -4px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}91%{text-shadow:6px 0 0 rgba(255,66,8,0.5),-6px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}92%{text-shadow:0 0 0 rgba(255,66,8,0.5),0 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0);text-shadow:3px -3px 0 rgba(255,66,8,0.5),0 -4px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}93%{text-shadow:3px -3px 0 rgba(255,66,8,0.5),0 -4px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}94%{text-shadow:3px -3px 0 rgba(255,66,8,0.5),0 -4px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}95%{text-shadow:3px -3px 0 rgba(255,66,8,0.5),0 -4px 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}96%{text-shadow:-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}97%{text-shadow:-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}98%{text-shadow:-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}99%{text-shadow:-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}100%{text-shadow:-3px 0 0 rgba(23,236,255,0.5);-webkit-filter:blur(0);filter:blur(0)}}@media (min-width: 768px) and (max-width: 991px){.glitch{display:none}#sec_01{background-image:url(../img/sec_01-bg.jpg);background-position:bottom center;background-repeat:no-repeat;background-size:contain}#sec_01:before{display:none}#sec_01 .top{margin-bottom:70px}#sec_01 h1{font-size:60px;line-height:70px}#sec_01 h1:before{display:none}#sec_01 .btn{border:4px solid #015ffd}}@media (min-width: 992px) and (max-width: 1200px){.glitch{font-size:340px}.glitch:before,.glitch:after{font-size:340px}#sec_01{padding-bottom:320px}#sec_01 .top{margin-bottom:70px}#sec_01 h1{font-size:90px;line-height:100px}}@media (min-width: 1200px) and (max-width: 1620px){#sec_01{padding-bottom:460px}#sec_01 .top{margin-bottom:50px}#sec_01 h1{font-size:80px;line-height:92px;margin-bottom:40px}#sec_01 h1:before{right:100px;top:116px}.glitch{font-size:320px}.glitch:before,.glitch:after{font-size:320px}}@media (max-width: 767px){.glitch{display:none}#sec_01{background-image:url(../img/sec_01-bg.jpg);background-position:bottom center;background-repeat:no-repeat;background-size:contain}#sec_01:before{display:none}#sec_01 .top{margin-bottom:70px}#sec_01 h1{font-size:60px;line-height:70px}#sec_01 h1:before{display:none}#sec_01 .btn{border:4px solid #015ffd}}@media (max-width: 480px){#sec_01{background-image:url(../img/sec_01-bg-mob.jpg);padding-bottom:130px}#sec_01 .top .phones_box{text-align:right;margin-top:-20px}#sec_01 .top .phone_number{float:none;margin:0}#sec_01 .top .call_btn{float:none}#sec_01 h1{font-size:40px;line-height:46px;margin-bottom:50px}#sec_01{background-image:url(../img/mob-1.png)}}</style>
 
     <!-- Load CSS, CSS Localstorage & WebFonts Main Function -->
     <script>!function(a){"use strict";function b(a,b,c){a.addEventListener?a.addEventListener(b,c,!1):a.attachEvent&&a.attachEvent("on"+b,c)}function c(b,c){return a.localStorage&&localStorage[b+"_content"]&&localStorage[b+"_file"]===c}function d(b,d){if(a.localStorage&&a.XMLHttpRequest)c(b,d)?f(localStorage[b+"_content"]):e(b,d);else{var h=g.createElement("link");h.href=d,h.id=b,h.rel="stylesheet",h.type="text/css",g.getElementsByTagName("head")[0].appendChild(h),g.cookie=b}}function e(a,b){var c=new XMLHttpRequest;c.open("GET",b,!0),c.onreadystatechange=function(){4===c.readyState&&200===c.status&&(f(c.responseText),localStorage[a+"_content"]=c.responseText,localStorage[a+"_file"]=b)},c.send()}function f(a){var b=g.createElement("style");b.setAttribute("type","text/css"),g.getElementsByTagName("head")[0].appendChild(b),b.styleSheet?b.styleSheet.cssText=a:b.innerHTML=a}var g=a.document;a.loadCSS=function(a,b,c){var d,e=g.createElement("link");if(b)d=b;else{var f;f=g.querySelectorAll?g.querySelectorAll("style,link[rel=stylesheet],script"):(g.body||g.getElementsByTagName("head")[0]).childNodes,d=f[f.length-1]}var h=g.styleSheets;e.rel="stylesheet",e.href=a,e.media="only x",d.parentNode.insertBefore(e,b?d:d.nextSibling);var i=function(a){for(var b=e.href,c=h.length;c--;)if(h[c].href===b)return a();setTimeout(function(){i(a)})};return e.onloadcssdefined=i,i(function(){e.media=c||"all"}),e},a.loadLocalStorageCSS=function(e,f){c(e,f)||g.cookie.indexOf(e)>-1?d(e,f):b(a,"load",function(){d(e,f)})}}(this);</script>
 
 <!--     <link rel="stylesheet" href="css/fonts.css"> -->
-    <link rel="stylesheet" href="css/header.css">
+    <!-- <link rel="stylesheet" href="css/header.css"> -->
     <!-- Load CSS Start -->
     <!-- <script>loadCSS( "css/fonts.css?ver=1.0.0", false, "all" );</script> -->
-    <script>loadCSS( "css/header.css?ver=1.0.0", false, "all" );</script>
+    <!-- <script>loadCSS( "css/header.css?ver=1.0.0", false, "all" );</script> -->
     <script>loadCSS( "css/main.css?ver=1.0.0", false, "all" );</script>
     <!-- Load CSS End -->
 
@@ -66,82 +61,183 @@
 
 </head>
 <body data-img="img/land.jpg">
+<div id="page-preloader"><div class="contpre"><div class="round1"></div></div></div>
 <div class="bar-long"></div>
 <div id="scrollup"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 286.054 286.054"><path d="M143.027 0C64.04 0 0 64.04 0 143.027c0 78.996 64.04 143.027 143.027 143.027s143.027-64.03 143.027-143.027C286.054 64.05 222.014 0 143.027 0zm0 259.236c-64.183 0-116.21-52.026-116.21-116.21s52.027-116.2 116.21-116.2 116.21 52.018 116.21 116.2-52.027 116.21-116.21 116.21zm51.677-125.148h-24.86V89.392c0-4.934-3.996-8.94-8.94-8.94H125.15c-4.934 0-8.94 4.006-8.94 8.94v44.696H91.342c-9.698 0-13.667 6.463-8.822 14.338l51.686 51.096c4.845 7.884 12.783 7.884 17.637 0l51.678-51.096c4.863-7.875.894-14.338-8.814-14.338z"/></svg></div>
 
-<form  method="POST" class="form-inline db-form" action="javascript:void(null);">
-
-    <!-- Hidden DB Fields -->
-
-    <input type="hidden" id="registrationType" name="registrationType" value="default_registration">
-    <input type="hidden" id="orderType" name="orderType" value="Zayavka">
-    <input type="hidden" name="page_url" value="<?php echo $data['page_url']; ?>">
-    <input type="hidden" name="user_agent" value="<?php echo $user_agent; ?>">
-    <input type="hidden" name="utm_source" value="<?php echo $data['utm_source']; ?>">
-    <input type="hidden" name="utm_campaign" value="<?php echo $data['utm_campaign']; ?>">
-    <input type="hidden" name="utm_medium" value="<?php echo $data['utm_medium']; ?>">
-    <input type="hidden" name="utm_term" value="<?php echo $data['utm_term']; ?>">
-    <input type="hidden" name="utm_content" value="<?php echo $data['utm_content']; ?>">
-    <input type="hidden" name="ref" value="<?php echo $data['ref']; ?>">
-    <input type="hidden" name="ip_address" value="<?php echo $data['ip_address']; ?>">
-    <input type="hidden" name="city" value="<?php echo $data['city']; ?>">
-    <input type="hidden" name="client_id" value="<?php echo $data['client_id']; ?>">
-    <input type="hidden" name="utmcsr" value="<?php echo $data['utmcsr']; ?>">
-    <input type="hidden" name="utmccn" value="<?php echo $data['utmccn']; ?>">
-    <input type="hidden" name="utmcmd" value="<?php echo $data['utmcmd']; ?>">
-    <input type="hidden" name="click_id" value="<?php echo $data['click_id']; ?>">
-    <input type="hidden" name="affiliate_id" value="<?php echo $data['affiliate_id']; ?>">
-
-    <!-- Zoho -->
-<!--     <input type="hidden" name="product_id" value="2167809000000656177">
-    <input type="hidden" name="product_name" value="&laquo;BootCamp 2&raquo;"> -->
-    <!-- Zoho -->
-
-    <!-- END Hidden DB Fields -->
-
-    <!-- Hidden Required Fields -->
-    <input type="hidden" name="project_name" value="CompanyName">
-    <input type="hidden" name="admin_email" value="alien_202@mail.ru">
-    <input type="hidden" name="goal" value="conversion_1">
-    <input type="hidden" name="form_type" value="firstForm ">
-    <!-- END Hidden Required Fields -->
-
-    <span class="field">
-        <input type="text" class="form-control" name="name" required=""  placeholder="Ваше имя " />
-        <span class="bar"></span>
-    </span>
 
 
-    <span class="field">
-        <input placeholder="Ваш телефон" type="tel" class="form-control" name="custom_tel" required="">
-        <span class="bar"></span>
-    </span>
-
-    <span class="field">
-        <input type="email" required="" placeholder="Ваш E-Mail" name="email" class="form-control">
-        <span class="bar"></span>
-    </span>
-
-
-    <button type="submit" class="btn" name="send">Отправить</button>
-
-
-    <button type="submit" class="btn" name="send"><span>Записаться на консультацию</span></button>
-
-    <!-- Просто любое дополнительное поле -->
-    <!-- <input type="hidden" name="other_data" value="Любое значение" /> -->
-    <!-- Динамическое дополнительное поле для передачи данных с кнопок по всему сайту -->
-    <input type="hidden" class="pacet" name="form_pacet" value="">
-    <!-- GET RESPONCE INPUTS -->
-    <input type="hidden" name="start_day" value="0"/>
-    <!-- Если нужно отправлять и на почту и на GetResponse - указываем campaign_token -->
-    <input type="hidden" name="campaign_token" value=""/>
-    <!-- GET RESPONCE INPUTS -->
-    <div class="clear"></div>
+<section id="sec_01">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 top">
+                <img src="img/logo.png" alt="Logo" class="logo">
+                <div class="phones_box">
+                    <a href="tel:380509042803" class="phone_number  text--title">+380 50 904 28 03</a>
+                    <a class="md-trigger call_btn flex" data-modal="modal_callback">Перезвоните мне</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text--title">Напиши код, <br />  который <br /> изменит мир</h1>
+                <a href="#sec_02" class="scroll btn  flex btn--white">&lt; Подробнее /></a>
+            </div>
+        </div>
+    </div>
+    <div class="tc">
+        <div class="glitch text--title" data-text="MOVE">MOVE</div>
+    </div>
+</section>
 
 
-</form>
+<section id="sec_02">
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <h2 class="text--title">Работаешь <br /> над проектом <br /> в многоэтажном <br /> офисе Лондона</h2>
+                <img src="img/sec_02-img-1.png" alt="Работа в офисе за границей" class="sec_img-1">
+            </div>
+            <div class="col-4">
+                <div class="item">
+                    <img class="sec_img-2 desctop" src="img/sec_02-img-2.png" alt="Друзья за границей">
+                    <p class="title-1 text--title block_title">Вечером <br /> встречаешься <br /> с друзьями в баре <br /> в Калифорнии.</p>
+                    <p class="text">Захлопываешь дверцу авто <br /> возле дома в Мюнхене.</p>
 
+                    <img class="sec_img-2 mobile" src="img/sec_02-img-2.png" alt="Друзья за границей">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p class="title-2 text--title block_title">Представь, что ты можешь <br /> жить в любой стране. <br /> Какую выберешь?</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="sec_03">
+    <div class="container">
+        <div class="row">
+            <div class="col-7 desctop">
+                <img src="img/sec_02-img-4.png" alt="" class="sec_img">
+                <p class="title-1 block_title text--title">Те, кто прошел <br /> отбор, получают:</p>
+                <ul class="list_item">
+                    <li>Лучшие проекты топовых компаний</li>
+                    <li>Моральную подготовку</li>
+                    <li>Бесплатный перелет</li>
+                    <li>Полное документальное оформление</li>
+                    <li>Сопровождение в аэропорт и из аэропорта</li>
+                    <li>Оплату апартаментов на первый месяц</li>
+                    <li>Личного ассистента на год.</li>
+                </ul>
+            </div>
+            <div class="col-5">
+                <h2 class="title-2  text--title text--blue">Move <br /> On Miles</h2>
+                <p class="text"> — Проект, который дает <span>IT-специалистам возможность переехать в Европу или США.</span> Мы отбираем лучших <br /> разработчиков для ТОП-компаний в сфере IT <br /> и полностью бесплатно помогаем им с переездом <br /> в другую страну. </p>
+            </div>
+            <div class="col-7 mobile">
+                <img src="img/sec_02-img-4.png" alt="" class="sec_img">
+                <p class="title-1 block_title text--title">Те, кто прошел <br /> отбор, получают:</p>
+                <ul class="list_item">
+                    <li>Лучшие проекты топовых компаний</li>
+                    <li>Моральную подготовку</li>
+                    <li>Бесплатный перелет</li>
+                    <li>Полное документальное оформление</li>
+                    <li>Сопровождение в аэропорт и из аэропорта</li>
+                    <li>Оплату апартаментов на первый месяц</li>
+                    <li>Личного ассистента на год.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section id="sec_04">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <h2 class="text--title">Не будем <br /> спорить, что <br /> переезд <br /> — это трудно </h2>
+                <p class="margined text">Сложно оставить привычный образ жизни,  <br /> работу, друзей. Но, переехав, наши ребята <br /> обычно говорят:<span> “Спасибо. Оно того стоило”.</span></p>
+            </div>
+            <div class="col-6">
+                <img src="img/sec_03-img-1.png" alt="" class="sec_img">
+            </div>
+        </div>
+        <div class="row">
+        <div class="col-5 mobile">
+            <div class="item">
+                <p class="text--title block_title">Если тебе интересно</p>
+                <p class="text">И ты хочешь обсудить возможность <br /> переезда подробней, оставь свои контакты. <br /> Мы позвоним в течении часа и ответим  <br /> на все вопросы.</p>
+            </div>
+        </div>
+            <div class="col-7">
+                    <form  method="POST" class="form-inline db-form" action="javascript:void(null);">
+
+
+                        <!-- Hidden Required Fields -->
+                        <input type="hidden" name="project_name" value="MOM">
+                        <input type="hidden" name="admin_email" value="alien_202@mail.ru">
+                        <input type="hidden" name="form_type" value="Форма с сайта ">
+                        <!-- END Hidden Required Fields -->
+
+                        <span class="field">
+                            <input type="text" class="form-control" name="entry.1750371417" required=""  placeholder="Ваше имя " />
+                            <span class="bar"></span>
+                        </span>
+
+
+                        <span class="field">
+                            <input placeholder="Ваш телефон" type="tel" class="form-control" name="entry.522199749" required="">
+                            <span class="bar"></span>
+                        </span>
+
+                        <span class="field">
+                            <input type="email" required="" placeholder="Ваш E-Mail" name="entry.1382825857" class="form-control">
+                            <span class="bar"></span>
+                        </span>
+
+
+                        <button type="submit" class="btn btn_red" name="send" >&lt; Отправить /></button>
+
+                        <input type="hidden" name="campaign_token" value=""/>
+                        <!-- GET RESPONCE INPUTS -->
+                        <div class="clear"></div>
+
+
+                    </form>
+            </div>
+            <div class="col-5 desctop">
+                <div class="item">
+                    <p class="text--title block_title">Если тебе интересно</p>
+                    <p class="text">И ты хочешь обсудить возможность <br /> переезда подробней, оставь свои контакты. <br /> Мы позвоним в течении часа и ответим  <br /> на все вопросы.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <img src="img/logo-btm.png" alt="" class="logo">
+            </div>
+            <div class="col-2">
+                <a class="social" href="https://www.facebook.com/moveonmiles/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </div>
+            <div class="col-5">
+                <a target="_blank" href="https://goo.gl/maps/NMHTiXcyan62" class="place"><i class="fa fa-map-marker" aria-hidden="true"></i> HUB 4.0, Ярославський провулок, 1/3, Київ, 02000</a>
+            </div>
+            <div class="col-3">
+                 <a href="tel:380509042803" class="phone_number  text--title"><i class="fa fa-phone" aria-hidden="true"></i><span> +380 50 904 28 03</span></a>
+            </div>
+        </div>
+    </div>
+</div>
 
 <footer>
     <div class="container">
@@ -169,73 +265,39 @@
                 <a class="md-close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52" ><style>.a{fill:#424242;}</style><path d="M26 0C11.7 0 0 11.7 0 26s11.7 26 26 26 26-11.7 26-26S40.3 0 26 0zM26 50C12.8 50 2 39.2 2 26S12.8 2 26 2s24 10.8 24 24S39.2 50 26 50z" class="a"/><path d="M35.7 16.3c-0.4-0.4-1-0.4-1.4 0L26 24.6l-8.3-8.3c-0.4-0.4-1-0.4-1.4 0s-0.4 1 0 1.4L24.6 26l-8.3 8.3c-0.4 0.4-0.4 1 0 1.4C16.5 35.9 16.7 36 17 36s0.5-0.1 0.7-0.3L26 27.4l8.3 8.3C34.5 35.9 34.7 36 35 36s0.5-0.1 0.7-0.3c0.4-0.4 0.4-1 0-1.4L27.4 26l8.3-8.3C36.1 17.3 36.1 16.7 35.7 16.3z" class="a"/></svg></a>
             </span>
             <div class="titlebox">
-                <h2 class="colored">Заказ обратного звонка</h2>
+                <h2 class="text--title">Заказать звонок</h2>
             </div>
             <div>
-                <form  method="POST" class="form-inline db-form" action="javascript:void(null);">
-                    <!-- Hidden DB Fields -->
-
-                    <input type="hidden" id="registrationType" name="registrationType" value="default_registration">
-                    <input type="hidden" id="orderType" name="orderType" value="Zayavka">
-                    <input type="hidden" name="page_url" value="<?php echo $data['page_url']; ?>">
-                    <input type="hidden" name="user_agent" value="<?php echo $user_agent; ?>">
-                    <input type="hidden" name="utm_source" value="<?php echo $data['utm_source']; ?>">
-                    <input type="hidden" name="utm_campaign" value="<?php echo $data['utm_campaign']; ?>">
-                    <input type="hidden" name="utm_medium" value="<?php echo $data['utm_medium']; ?>">
-                    <input type="hidden" name="utm_term" value="<?php echo $data['utm_term']; ?>">
-                    <input type="hidden" name="utm_content" value="<?php echo $data['utm_content']; ?>">
-                    <input type="hidden" name="ref" value="<?php echo $data['ref']; ?>">
-                    <input type="hidden" name="ip_address" value="<?php echo $data['ip_address']; ?>">
-                    <input type="hidden" name="city" value="<?php echo $data['city']; ?>">
-                    <input type="hidden" name="client_id" value="<?php echo $data['client_id']; ?>">
-                    <input type="hidden" name="utmcsr" value="<?php echo $data['utmcsr']; ?>">
-                    <input type="hidden" name="utmccn" value="<?php echo $data['utmccn']; ?>">
-                    <input type="hidden" name="utmcmd" value="<?php echo $data['utmcmd']; ?>">
-                    <input type="hidden" name="click_id" value="<?php echo $data['click_id']; ?>">
-                    <input type="hidden" name="affiliate_id" value="<?php echo $data['affiliate_id']; ?>">
-
-                    <!-- Zoho -->
-                <!--     <input type="hidden" name="product_id" value="1212">
-                    <input type="hidden" name="product_name" value="&laquo;BootCamp 2&raquo;"> -->
-                    <!-- Zoho -->
-
-                    <!-- END Hidden DB Fields -->
-
-                    <!-- Hidden Required Fields -->
-                    <input type="hidden" name="project_name" value="CompanyName">
-                    <input type="hidden" name="admin_email" value="alien_202@mail.ru">
-                    <input type="hidden" name="goal" value="conversion_1">
-                    <input type="hidden" name="form_type" value="firstForm ">
-                    <!-- END Hidden Required Fields -->
-
-                    <span class="field">
-                        <input type="text" class="form-control" name="name" required=""  placeholder="Ваше имя " />
-                        <span class="bar"></span>
-                    </span>
+                 <form  method="POST" class="form-inline db-form" action="javascript:void(null);">
 
 
-                    <span class="field">
-                        <input placeholder="Ваш телефон" type="tel" class="form-control" name="custom_tel" required="">
-                        <span class="bar"></span>
-                    <!-- Если отправляем и на Гет РЕспонс тоже - меняем название поля name на то которое создали в компании ГетРЕспонса -->
-                    </span>
+                        <!-- Hidden Required Fields -->
+                        <input type="hidden" name="project_name" value="MOM">
+                        <input type="hidden" name="admin_email" value="alien_202@mail.ru">
+                        <input type="hidden" name="form_type" value="Форма с сайта ">
+                        <!-- END Hidden Required Fields -->
+
+                        <span class="field">
+                            <input type="text" class="form-control" name="entry.1750371417" required=""  placeholder="Ваше имя " />
+                            <span class="bar"></span>
+                        </span>
 
 
-                    <button type="submit" class="btn" name="send" data-text="Перезвоните мне">Перезвоните мне</button>
+                        <span class="field">
+                            <input placeholder="Ваш телефон" type="tel" class="form-control" name="entry.522199749" required="">
+                            <span class="bar"></span>
 
-                    <!-- Просто любое дополнительное поле -->
-                    <!-- <input type="hidden" name="other_data" value="Любое значение" /> -->
-                    <!-- Динамическое дополнительное поле для передачи данных с кнопок по всему сайту -->
-                    <input type="hidden" class="pacet" name="form_pacet" value="">
-                    <!-- GET RESPONCE INPUTS -->
-                    <input type="hidden" name="start_day" value="0"/>
-                    <!-- Если нужно отправлять и на почту и на GetResponse - указываем campaign_token -->
-                    <input type="hidden" name="campaign_token" value=""/>
-                    <!-- GET RESPONCE INPUTS -->
-                    <div class="clear"></div>
+                        </span>
 
 
-                </form>
+                        <button type="submit" class="btn btn_red" name="send" >&lt; Отправить /></button>
+
+                        <input type="hidden" name="campaign_token" value=""/>
+                        <!-- GET RESPONCE INPUTS -->
+                        <div class="clear"></div>
+
+
+                    </form>
 
                 <div class="md_bottom">
                     <p class="tc t_small"><i class="fa fa-lock"></i>  *Ваши данные никогда не будут переданы 3-м лицам</p>

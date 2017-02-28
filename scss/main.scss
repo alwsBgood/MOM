@@ -3,12 +3,157 @@
 
 //Custom Styles Here
 
-form{
-  width: 400px;
-  margin: 40px auto;
-  .field{
+#sec_02{
+  padding: 190px 0 0;
+  h2{
+    margin-left: 100px;
+    margin-bottom: -50px;
+    position: relative;
+    z-index: 1;
+  }
+  .sec_img-2{
+    margin: 75px 0 -60px 100px;
+  }
+  .text{
+    margin-top: 12px;
+  }
+  .title-2{
+      margin-left: 207px;
+      margin-top: 71px;
+   }
+   .row+.row{
+    padding-bottom: 265px;
+    background-image: url(../img/sec_02-img-3.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;;
+   }
+}
+.text span{
+  font-family: $bold_font;
+}
+
+#sec_03{
+  margin-top: -75px;
+  h2{
+    color: $main_color;
+    margin-top: 150px;
+    font-size: 72px;
+    line-height: 74px;
+    margin-bottom: 20px;
+
+    position: relative;
+    display: inline-block;
+    &:before{
+            position: absolute;
+            content: '';
+            width: 50px;
+            height: 65px;
+            right: -65px;
+            bottom: 0px;
+            background: url(../img/slach_blue.png) center no-repeat;
+        }
+  }
+  .sec_img{
+    margin-left: 100px;
+    margin-bottom: -65px;
+  }
+  .list_item{
+    margin-top: 24px;
+    margin-left: 100px;
+    li{
+      position: relative;
+      padding-left: 20px;
+      &:before{
+        position: absolute;
+        content: '';
+        width: 4px;
+        height: 4px;
+        left: 0px;
+        top: 50%;
+        margin-top: -2px;
+        background-image: url(../img/list.png);
+        background-position: top center;
+        background-repeat: no-repeat;;
+      }
+    }
+    li+li{margin-top: 7px;}
+  }
+}
+
+#sec_04{
+  padding: 65px 0 100px;
+  .container{
+    background-image: url(../img/sec_03-img-2.png);
+    background-position: bottom left -50px;
+    background-repeat: no-repeat;;
+  }
+  h2{
+    margin-top: 90px;
+    margin-bottom: 30px;
+  }
+  .margined{
+    margin-left: 100px;
+  }
+  .row+.row{
+    margin-top: 75px;
+  }
+  form{
+    margin-left: 130px;
+    padding: 50px 70px 70px;
     width: 100%;
-    margin: 5px 0;
+    max-width: 457px;
+    box-shadow: 0 14px 49px rgba(0, 0, 0, 0.08);
+    background-color: #eff0f7;
+    .btn{
+      margin-top: 40px;
+    }
+  }
+  .item{
+    margin-top: 110px;
+    .block_title{
+      margin-bottom: 10px;
+    }
+  }
+}
+
+
+#footer{
+  padding: 155px 0 50px;
+  a{
+    display: inline-block;
+    color: #101010;
+    i{color: $main_color}
+    &:hover{
+      color: #ec1244;
+      i{
+        color: #ec1244;
+        display: inline-block;
+        transition: all .3s;
+      }
+    }
+  }
+  .social{
+    font-size: 22px;
+    margin-top: 20px;
+  }
+  .place{
+    font-size: 16px;
+    margin-top: 13px;
+    i{font-size: 28px; margin-right: 10px;}
+    line-height: 28px;
+  }
+  .phone_number{
+    position: relative;
+    float: right;
+    margin-top: 20px;
+    font-size: 18px;
+    i{
+      font-size: 28px;
+      position: absolute;
+      left: -45px;
+      top: 50%;
+      margin-top: -17px;
+    }
   }
 }
 
@@ -38,5 +183,5 @@ footer{
 @import "_sketches.scss";
 @import "_media.scss";
 @import "../libs/niftymodal/component.css";
-@import "../libs/slick/slick.min.css";
-// @import "../fonts/font-awesome/font-awesome.min.css"
+@import "../fonts/font-awesome/font-awesome.min.css"
+
