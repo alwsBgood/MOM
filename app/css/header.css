@@ -109,7 +109,7 @@ h2 {
 
 .btn_red {
   background-color: none;
-  background-image: url(../img/btn-red.png);
+  background-image: url(img/btn-red.png);
   background-position: top center;
   background-repeat: no-repeat;
   color: #ec1244; }
@@ -118,7 +118,7 @@ h2 {
   position: relative;
   overflow: hidden;
   padding: 40px 0 210px;
-  background-image: url(../img/sec_01-bg_layer--2.png);
+  background-image: url(img/sec_01-bg_layer--2.png);
   background-position: bottom  center;
   background-repeat: no-repeat; }
   #sec_01 .container {
@@ -131,7 +131,7 @@ h2 {
     height: 100%;
     left: 0px;
     top: 0px;
-    background: url(../img/sec_01-bg_layer--1.png) bottom center no-repeat;
+    background: url(img/sec_01-bg_layer--1.png) bottom center no-repeat;
     z-index: 20; }
   #sec_01 h1 {
     position: relative;
@@ -148,7 +148,7 @@ h2 {
       height: 63px;
       right: 160px;
       top: 170px;
-      background: url(../img/slash.png) center no-repeat; }
+      background: url(img/slash.png) center no-repeat; }
   #sec_01 .top {
     margin-bottom: 130px; }
     #sec_01 .top .phones_box {
@@ -209,7 +209,7 @@ h2 {
   text-transform: uppercase;
   left: -1px;
   text-shadow: -1px 0 red;
-  background-image: url(../img/sec_01-bg_layer--2.png);
+  background-image: url(img/sec_01-bg_layer--2.png);
   background-repeat: no-repeat;
   background-position: bottom 76px center;
   -webkit-animation: glitch-anim-1 3s infinite linear alternate-reverse;
@@ -228,7 +228,7 @@ h2 {
   text-transform: uppercase;
   left: 1px;
   text-shadow: -1px 0 green;
-  background-image: url(../img/sec_01-bg_layer--2.png);
+  background-image: url(img/sec_01-bg_layer--2.png);
   background-repeat: no-repeat;
   background-position: bottom 76px center;
   -webkit-animation: glitch-anim-2 3s infinite linear alternate-reverse;
@@ -242,83 +242,83 @@ h2 {
 
 @-webkit-keyframes glitch-anim-1 {
   0% {
-    clip: rect(445px, 9999px, 314px, 0); }
+    clip: rect(168px, 9999px, 507px, 0); }
   12.5% {
-    clip: rect(361px, 9999px, 437px, 0); }
+    clip: rect(306px, 9999px, 47px, 0); }
   25% {
-    clip: rect(144px, 9999px, 239px, 0); }
+    clip: rect(23px, 9999px, 688px, 0); }
   37.5% {
-    clip: rect(693px, 9999px, 3px, 0); }
+    clip: rect(622px, 9999px, 508px, 0); }
   50% {
-    clip: rect(9px, 9999px, 697px, 0); }
+    clip: rect(517px, 9999px, 443px, 0); }
   62.5% {
-    clip: rect(244px, 9999px, 175px, 0); }
+    clip: rect(187px, 9999px, 233px, 0); }
   75% {
-    clip: rect(686px, 9999px, 66px, 0); }
+    clip: rect(255px, 9999px, 563px, 0); }
   87.5% {
-    clip: rect(283px, 9999px, 571px, 0); }
+    clip: rect(159px, 9999px, 314px, 0); }
   100% {
-    clip: rect(368px, 9999px, 676px, 0); } }
+    clip: rect(39px, 9999px, 545px, 0); } }
 
 @keyframes glitch-anim-1 {
   0% {
-    clip: rect(445px, 9999px, 314px, 0); }
+    clip: rect(168px, 9999px, 507px, 0); }
   12.5% {
-    clip: rect(361px, 9999px, 437px, 0); }
+    clip: rect(306px, 9999px, 47px, 0); }
   25% {
-    clip: rect(144px, 9999px, 239px, 0); }
+    clip: rect(23px, 9999px, 688px, 0); }
   37.5% {
-    clip: rect(693px, 9999px, 3px, 0); }
+    clip: rect(622px, 9999px, 508px, 0); }
   50% {
-    clip: rect(9px, 9999px, 697px, 0); }
+    clip: rect(517px, 9999px, 443px, 0); }
   62.5% {
-    clip: rect(244px, 9999px, 175px, 0); }
+    clip: rect(187px, 9999px, 233px, 0); }
   75% {
-    clip: rect(686px, 9999px, 66px, 0); }
+    clip: rect(255px, 9999px, 563px, 0); }
   87.5% {
-    clip: rect(283px, 9999px, 571px, 0); }
+    clip: rect(159px, 9999px, 314px, 0); }
   100% {
-    clip: rect(368px, 9999px, 676px, 0); } }
+    clip: rect(39px, 9999px, 545px, 0); } }
 
 @-webkit-keyframes glitch-anim-2 {
   0% {
-    clip: rect(91px, 9999px, 92px, 0); }
+    clip: rect(524px, 9999px, 671px, 0); }
   12.5% {
-    clip: rect(110px, 9999px, 200px, 0); }
+    clip: rect(20px, 9999px, 43px, 0); }
   25% {
-    clip: rect(248px, 9999px, 18px, 0); }
+    clip: rect(275px, 9999px, 696px, 0); }
   37.5% {
-    clip: rect(291px, 9999px, 395px, 0); }
+    clip: rect(412px, 9999px, 393px, 0); }
   50% {
-    clip: rect(359px, 9999px, 572px, 0); }
+    clip: rect(686px, 9999px, 172px, 0); }
   62.5% {
-    clip: rect(455px, 9999px, 549px, 0); }
+    clip: rect(528px, 9999px, 658px, 0); }
   75% {
-    clip: rect(220px, 9999px, 253px, 0); }
+    clip: rect(341px, 9999px, 560px, 0); }
   87.5% {
-    clip: rect(501px, 9999px, 318px, 0); }
+    clip: rect(481px, 9999px, 151px, 0); }
   100% {
-    clip: rect(49px, 9999px, 22px, 0); } }
+    clip: rect(654px, 9999px, 608px, 0); } }
 
 @keyframes glitch-anim-2 {
   0% {
-    clip: rect(91px, 9999px, 92px, 0); }
+    clip: rect(524px, 9999px, 671px, 0); }
   12.5% {
-    clip: rect(110px, 9999px, 200px, 0); }
+    clip: rect(20px, 9999px, 43px, 0); }
   25% {
-    clip: rect(248px, 9999px, 18px, 0); }
+    clip: rect(275px, 9999px, 696px, 0); }
   37.5% {
-    clip: rect(291px, 9999px, 395px, 0); }
+    clip: rect(412px, 9999px, 393px, 0); }
   50% {
-    clip: rect(359px, 9999px, 572px, 0); }
+    clip: rect(686px, 9999px, 172px, 0); }
   62.5% {
-    clip: rect(455px, 9999px, 549px, 0); }
+    clip: rect(528px, 9999px, 658px, 0); }
   75% {
-    clip: rect(220px, 9999px, 253px, 0); }
+    clip: rect(341px, 9999px, 560px, 0); }
   87.5% {
-    clip: rect(501px, 9999px, 318px, 0); }
+    clip: rect(481px, 9999px, 151px, 0); }
   100% {
-    clip: rect(49px, 9999px, 22px, 0); } }
+    clip: rect(654px, 9999px, 608px, 0); } }
 
 @-webkit-keyframes glitch-main {
   0% {
@@ -1144,7 +1144,7 @@ h2 {
   .glitch {
     display: none; }
   #sec_01 {
-    background-image: url(../img/sec_01-bg.jpg);
+    background-image: url(img/sec_01-bg.jpg);
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -1194,7 +1194,7 @@ h2 {
   .glitch {
     display: none; }
   #sec_01 {
-    background-image: url(../img/sec_01-bg.jpg);
+    background-image: url(img/sec_01-bg.jpg);
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -1212,7 +1212,7 @@ h2 {
 
 @media (max-width: 480px) {
   #sec_01 {
-    background-image: url(../img/sec_01-bg-mob.jpg);
+    background-image: url(img/sec_01-bg-mob.jpg);
     padding-bottom: 130px; }
     #sec_01 .top .phones_box {
       text-align: right;
@@ -1229,4 +1229,4 @@ h2 {
 
 @media (max-width: 480px) {
   #sec_01 {
-    background-image: url(../img/mob-1.png); } }
+    background-image: url(img/mob-1.png); } }
