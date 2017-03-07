@@ -146,8 +146,8 @@ h2 {
       content: '';
       width: 43px;
       height: 63px;
-      right: 160px;
-      top: 170px;
+      right: -60px;
+      top: 180px;
       background: url(img/slash.png) center no-repeat; }
   #sec_01 .top {
     margin-bottom: 130px; }
@@ -242,83 +242,83 @@ h2 {
 
 @-webkit-keyframes glitch-anim-1 {
   0% {
-    clip: rect(168px, 9999px, 507px, 0); }
+    clip: rect(207px, 9999px, 93px, 0); }
   12.5% {
-    clip: rect(306px, 9999px, 47px, 0); }
+    clip: rect(13px, 9999px, 49px, 0); }
   25% {
-    clip: rect(23px, 9999px, 688px, 0); }
+    clip: rect(192px, 9999px, 261px, 0); }
   37.5% {
-    clip: rect(622px, 9999px, 508px, 0); }
+    clip: rect(292px, 9999px, 27px, 0); }
   50% {
-    clip: rect(517px, 9999px, 443px, 0); }
+    clip: rect(524px, 9999px, 428px, 0); }
   62.5% {
-    clip: rect(187px, 9999px, 233px, 0); }
+    clip: rect(290px, 9999px, 15px, 0); }
   75% {
-    clip: rect(255px, 9999px, 563px, 0); }
+    clip: rect(595px, 9999px, 413px, 0); }
   87.5% {
-    clip: rect(159px, 9999px, 314px, 0); }
+    clip: rect(441px, 9999px, 371px, 0); }
   100% {
-    clip: rect(39px, 9999px, 545px, 0); } }
+    clip: rect(468px, 9999px, 137px, 0); } }
 
 @keyframes glitch-anim-1 {
   0% {
-    clip: rect(168px, 9999px, 507px, 0); }
+    clip: rect(207px, 9999px, 93px, 0); }
   12.5% {
-    clip: rect(306px, 9999px, 47px, 0); }
+    clip: rect(13px, 9999px, 49px, 0); }
   25% {
-    clip: rect(23px, 9999px, 688px, 0); }
+    clip: rect(192px, 9999px, 261px, 0); }
   37.5% {
-    clip: rect(622px, 9999px, 508px, 0); }
+    clip: rect(292px, 9999px, 27px, 0); }
   50% {
-    clip: rect(517px, 9999px, 443px, 0); }
+    clip: rect(524px, 9999px, 428px, 0); }
   62.5% {
-    clip: rect(187px, 9999px, 233px, 0); }
+    clip: rect(290px, 9999px, 15px, 0); }
   75% {
-    clip: rect(255px, 9999px, 563px, 0); }
+    clip: rect(595px, 9999px, 413px, 0); }
   87.5% {
-    clip: rect(159px, 9999px, 314px, 0); }
+    clip: rect(441px, 9999px, 371px, 0); }
   100% {
-    clip: rect(39px, 9999px, 545px, 0); } }
+    clip: rect(468px, 9999px, 137px, 0); } }
 
 @-webkit-keyframes glitch-anim-2 {
   0% {
-    clip: rect(524px, 9999px, 671px, 0); }
+    clip: rect(295px, 9999px, 682px, 0); }
   12.5% {
-    clip: rect(20px, 9999px, 43px, 0); }
+    clip: rect(637px, 9999px, 250px, 0); }
   25% {
-    clip: rect(275px, 9999px, 696px, 0); }
+    clip: rect(79px, 9999px, 238px, 0); }
   37.5% {
-    clip: rect(412px, 9999px, 393px, 0); }
+    clip: rect(427px, 9999px, 65px, 0); }
   50% {
-    clip: rect(686px, 9999px, 172px, 0); }
+    clip: rect(658px, 9999px, 73px, 0); }
   62.5% {
-    clip: rect(528px, 9999px, 658px, 0); }
+    clip: rect(37px, 9999px, 457px, 0); }
   75% {
-    clip: rect(341px, 9999px, 560px, 0); }
+    clip: rect(201px, 9999px, 433px, 0); }
   87.5% {
-    clip: rect(481px, 9999px, 151px, 0); }
+    clip: rect(490px, 9999px, 579px, 0); }
   100% {
-    clip: rect(654px, 9999px, 608px, 0); } }
+    clip: rect(100px, 9999px, 371px, 0); } }
 
 @keyframes glitch-anim-2 {
   0% {
-    clip: rect(524px, 9999px, 671px, 0); }
+    clip: rect(295px, 9999px, 682px, 0); }
   12.5% {
-    clip: rect(20px, 9999px, 43px, 0); }
+    clip: rect(637px, 9999px, 250px, 0); }
   25% {
-    clip: rect(275px, 9999px, 696px, 0); }
+    clip: rect(79px, 9999px, 238px, 0); }
   37.5% {
-    clip: rect(412px, 9999px, 393px, 0); }
+    clip: rect(427px, 9999px, 65px, 0); }
   50% {
-    clip: rect(686px, 9999px, 172px, 0); }
+    clip: rect(658px, 9999px, 73px, 0); }
   62.5% {
-    clip: rect(528px, 9999px, 658px, 0); }
+    clip: rect(37px, 9999px, 457px, 0); }
   75% {
-    clip: rect(341px, 9999px, 560px, 0); }
+    clip: rect(201px, 9999px, 433px, 0); }
   87.5% {
-    clip: rect(481px, 9999px, 151px, 0); }
+    clip: rect(490px, 9999px, 579px, 0); }
   100% {
-    clip: rect(654px, 9999px, 608px, 0); } }
+    clip: rect(100px, 9999px, 371px, 0); } }
 
 @-webkit-keyframes glitch-main {
   0% {
@@ -1183,7 +1183,7 @@ h2 {
       line-height: 92px;
       margin-bottom: 40px; }
       #sec_01 h1:before {
-        right: 100px;
+        right: -40px;
         top: 116px; }
   .glitch {
     font-size: 320px; }
